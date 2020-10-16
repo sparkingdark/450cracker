@@ -42,4 +42,31 @@ start = start +1, end = end – 1
 - **Code**:[recursive solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/recursive_reverse.py)
 
 
+### Number 2 find max and min in a array.
+
+- used language: python
+- Approach:Iterative
+
+#### Description:
+
+find the maximum and minimum element in a array.
+
+```
+Input  : arr[] = {1, 2, 3}
+Output : Max = 3,Min = 1
+
+Input :  arr[] = {4, 5, 1, 2}
+Output : Max = 5,Min = 1
+
+```
+
+- **Using simple Linear search**:
+
+```
+Initialize values of min and max as minimum and maximum of the first two elements respectively. Starting from 3rd, compare each element with max and min, and change max and min accordingly (i.e., if the element is smaller than min then change min, else if the element is greater than max then change max, else ignore the element)
+
+```
+
+- **Code**:[simple linear search approach to find max and min element]()
+
 
