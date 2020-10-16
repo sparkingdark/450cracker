@@ -1,4 +1,4 @@
-# My Daily Trackerof 450 problems
+# My Daily Trackerof 450 problems :hello:
 
 450 competitive programming questions daily update.So let's start.
 
@@ -28,7 +28,7 @@ Output : arr[] = {2, 1, 5, 4}
 start = start +1, end = end – 1
 
 ```
-- **Code**:[]()
+- **Code**:[iterative solution](/Reverse Array/reverse_iterate.py)
 
 - **Recursive way** :
 
@@ -39,7 +39,7 @@ start = start +1, end = end – 1
 
 ```
 
-- **Code**:[]()
+- **Code**:[recursive solution](/Reverse Array/recursive_reverse.py)
 
 
 
