@@ -28,7 +28,7 @@ Output : arr[] = {2, 1, 5, 4}
 start = start +1, end = end – 1
 
 ```
-- **Code**:[iterative solution](/Reverse Array/reverse_iterate.py)
+- **Code**:[iterative solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/reverse_iterate.py)
 
 - **Recursive way** :
 
@@ -39,7 +39,7 @@ start = start +1, end = end – 1
 
 ```
 
-- **Code**:[recursive solution](/Reverse Array/recursive_reverse.py)
+- **Code**:[recursive solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/recursive_reverse.py)
 
 
 
