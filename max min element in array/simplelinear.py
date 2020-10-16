@@ -3,11 +3,12 @@ def max_min(l):
     min = 999999999
 
     for i in l:
-        if i>max:
+        if i > max:
             max = i
-        if i<min:
+        if i < min:
             min = i
-    return (max,min)  
+    return (max, min)
+
 
 if __name__ == "__main__":
-    print(max_min([1,2,3,4,5]))
+    print(max_min([1, 2, 3, 4, 5]))

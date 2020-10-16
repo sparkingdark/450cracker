@@ -28,6 +28,7 @@ Output : arr[] = {2, 1, 5, 4}
 start = start +1, end = end – 1
 
 ```
+
 - **Code**:[iterative solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/reverse_iterate.py)
 
 - **Recursive way** :
@@ -40,7 +41,6 @@ start = start +1, end = end – 1
 ```
 
 - **Code**:[recursive solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/recursive_reverse.py)
-
 
 ### Number 2 find max and min in a array.
 
@@ -63,11 +63,13 @@ Output : Max = 5,Min = 1
 - **Using simple Linear search**:
 
 ```
-Initialize values of min and max as minimum and maximum of the first two elements respectively. Starting from 3rd, compare each element with max and min, and change max and min accordingly (i.e., if the element is smaller than min then change min, else if the element is greater than max then change max, else ignore the element)
+Initialize values of min and max as minimum and maximum of the first two elements respectively.
+Starting from 3rd, compare each element with max and min, and change max and min accordingly (i.e., if the element is smaller than min then change min, else if the element is greater than max then
+change max, else ignore the element)
 
 ```
 
-- **Code**:[simple linear search approach to find max and min element]()
+- **Code**:[simple linear search approach to find max and min element](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/simplelinear.py)
 
 - **Using Recursive Approach**:
 
@@ -89,5 +91,4 @@ Pair MaxMin(array, array_size)
 
 ```
 
--**code**:[]()
-
+-**code**:[recursive way](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/recur_max_min.py)
