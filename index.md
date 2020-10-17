@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
 </head>
 
-<body>
 
-<a class="github-fork-ribbon" href="https://github.com/sparkingdark/450cracker" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a></body>
+
+<a class="github-fork-ribbon" href="https://github.com/sparkingdark/450cracker" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 # My Daily Trackerof 450 problems :hello:
 
 450 competitive programming questions daily update.So let's start.
