@@ -128,4 +128,4 @@ Output:
 ```
 
 
-- **Code**:[]()
+- **Code**:[Kth max and min in O(nlogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/sorting_kth.py)
