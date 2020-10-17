@@ -1,37 +1,131 @@
-## Welcome to GitHub Pages
+# My Daily Trackerof 450 problems :hello:
 
-You can use the [editor on GitHub](https://github.com/sparkingdark/450cracker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+450 competitive programming questions daily update.So let's start.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## problems on array
 
-### Markdown
+### Number 1 :smiley: reverse the array.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- used language: python
+- Approach:Iterative,Recursive
 
-```markdown
-Syntax highlighted code block
+#### Description:
 
-# Header 1
-## Header 2
-### Header 3
+```
+Input  : arr[] = {1, 2, 3}
+Output : arr[] = {3, 2, 1}
 
-- Bulleted
-- List
+Input :  arr[] = {4, 5, 1, 2}
+Output : arr[] = {2, 1, 5, 4}
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- **Iterative way** :
 
-### Jekyll Themes
+```
+1) Initialize start and end indexes as start = 0, end = n-1
+2) In a loop, swap arr[start] with arr[end] and change start and end as follows :
+start = start +1, end = end – 1
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sparkingdark/450cracker/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
 
-### Support or Contact
+- **Code**:[iterative solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/reverse_iterate.py)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- **Recursive way** :
+
+```
+1) Initialize start and end indexes as start = 0, end = n-1
+2) Swap arr[start] with arr[end]
+3) Recursively call reverse for rest of the array.
+
+```
+
+- **Code**:[recursive solution](https://github.com/sparkingdark/450cracker/blob/main/Reverse%20Array/recursive_reverse.py)
+
+### Number 2 find max and min in a array.
+
+- used language: python
+- Approach:Iterative
+
+#### Description:
+
+find the maximum and minimum element in a array.
+
+```
+Input  : arr[] = {1, 2, 3}
+Output : Max = 3,Min = 1
+
+Input :  arr[] = {4, 5, 1, 2}
+Output : Max = 5,Min = 1
+
+```
+
+- **Using simple Linear search**:
+
+```
+Initialize values of min and max as minimum and maximum of the first two elements respectively.
+Starting from 3rd, compare each element with max and min, and change max and min accordingly (i.e., if the element is smaller than min then change min, else if the element is greater than max then
+change max, else ignore the element)
+
+```
+
+- **Code**:[simple linear search approach to find max and min element](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/simplelinear.py)
+
+- **Using Recursive Approach**:
+
+Divide the array into two parts and compare the maximums and minimums of the two parts to get the maximum and the minimum of the whole array.
+
+```
+Pair MaxMin(array, array_size)
+   if array_size = 1
+      return element as both max and min
+   else if arry_size = 2
+      one comparison to determine max and min
+      return that pair
+   else    /* array_size  > 2 */
+      recur for max and min of left half
+      recur for max and min of right half
+      one comparison determines true max of the two candidates
+      one comparison determines true min of the two candidates
+      return the pair of max and min
+
+```
+
+- **code**:[recursive way](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/recur_max_min.py)
+
+
+### Find the "Kth" max and min element of an array 
+
+- used language: python
+- Approach: Iterative Sorting
+
+#### Description:
+
+Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+
+```
+Input:
+2               #testcase
+6               #arraysize n
+7 10 4 3 20 15  #array
+3               #nth smallest and biggest
+5
+7 10 4 20 15
+4
+
+Output:
+7
+15
+
+```
+- **Approach**:
+
+```
+1.First sort the element
+2.Access the elements by index
+3.Return Kth min and max element from the array using index
+
+```
+
+
+- **Code**:[Kth max and min in O(nlogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/sorting_kth.py)
