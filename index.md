@@ -5,6 +5,8 @@
 
 
 <a class="github-fork-ribbon" href="https://github.com/sparkingdark/450cracker" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
+
 # My Daily Trackerof 450 problems :hello:
 
 450 competitive programming questions daily update.So let's start.
@@ -101,7 +103,7 @@ Pair MaxMin(array, array_size)
 - **code**:[recursive way](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/recur_max_min.py)
 
 
-### Problem # Find the "Kth" max and min element of an array 
+### Find the "Kth" max and min element of an array 
 
 - used language: python
 - Approach: Iterative Sorting
@@ -125,7 +127,7 @@ Output:
 15
 
 ```
-- **Approach**:
+- **Approach**:Iterative sorting
 
 ```
 1.First sort the element
@@ -137,3 +139,15 @@ Output:
 
 - **Code**:[Kth max and min in O(nlogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/sorting_kth.py)
 
+- **Approach**:Using Max Heap
+
+```
+1.Construct a max heap of size n
+2.insert all the elements into it
+3.Pop k-1 element from it
+4.Kth largest element is the reside the root of the max heap
+
+```
+
+
+- **Code**:[Kth max and min in O(n+klogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/usingmaxheap.py)
