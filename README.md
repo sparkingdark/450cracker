@@ -92,3 +92,40 @@ Pair MaxMin(array, array_size)
 ```
 
 - **code**:[recursive way](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/recur_max_min.py)
+
+
+### Find the "Kth" max and min element of an array 
+
+- used language: python
+- Approach: Iterative Sorting
+
+#### Description:
+
+Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+
+```
+Input:
+2               #testcase
+6               #arraysize n
+7 10 4 3 20 15  #array
+3               #nth smallest and biggest
+5
+7 10 4 20 15
+4
+
+Output:
+7
+15
+
+```
+- **Approach**:
+
+```
+1.First sort the element
+2.Access the elements by index
+3.Return Kth min and max element from the array using index
+
+```
+
+
+- **Code**:[]()
