@@ -118,7 +118,7 @@ Output:
 15
 
 ```
-- **Approach**:
+- **Approach**:Iterative sorting
 
 ```
 1.First sort the element
@@ -129,3 +129,16 @@ Output:
 
 
 - **Code**:[Kth max and min in O(nlogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/sorting_kth.py)
+
+- **Approach**:Using Max Heap
+
+```
+1.Construct a max heap of size n
+2.insert all the elements into it
+3.Pop k-1 element from it
+4.Kth largest element is the reside the root of the max heap
+
+```
+
+
+- **Code**:[Kth max and min in O(n+klogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/usingmaxheap.py)
