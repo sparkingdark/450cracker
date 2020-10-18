@@ -94,7 +94,7 @@ Pair MaxMin(array, array_size)
 - **code**:[recursive way](https://github.com/sparkingdark/450cracker/blob/main/max%20min%20element%20in%20array/recur_max_min.py)
 
 
-### Find the "Kth" max and min element of an array 
+### Problem 3 Find the "Kth" max and min element of an array 
 
 - used language: python
 - Approach: Iterative Sorting
@@ -142,3 +142,34 @@ Output:
 
 
 - **Code**:[Kth max and min in O(n+klogn) time](https://github.com/sparkingdark/450cracker/blob/main/kth%20max%20and%20min%20element/usingmaxheap.py)
+
+
+### Problem 4 Sort an array of 0s, 1s and 2s.
+
+- used language: python
+- Approach:simple Iterative Approach
+
+#### Description:
+Given an array A[] consisting 0s, 1s and 2s. The task is to write a function that sorts the given array. The functions should put all 0s first, then all 1s and all 2s in last.
+
+```
+Input: {0, 1, 2, 0, 1, 2}
+Output: {0, 0, 1, 1, 2, 2}
+
+Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
+Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+
+```
+
+- **simple Iterative approach using 3 array**:
+
+```
+1. First loop through array
+2.create 3 array 0,1,2
+3.if element = 0 push to zero array
+4.repeat for 1 and 2
+5.return concatinated list.
+
+```
+
+- **Code**:[simple iterative approach]()
