@@ -172,4 +172,4 @@ Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
 
 ```
 
-- **Code**:[simple iterative approach]()
+- **Code**:[simple iterative approach](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/sorting_zero_one_two.py)
