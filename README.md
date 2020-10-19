@@ -173,3 +173,13 @@ Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
 ```
 
 - **Code**:[simple iterative approach](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/sorting_zero_one_two.py)
+
+- **alternate approach using count method**:
+
+```
+1.count the 0,1 and 2 number in array
+2.return a array with the counted number of 0,1,and 2
+
+```
+
+- **code**:[count method 0 1 2 sorting](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/sorting_count.py)
