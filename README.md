@@ -184,6 +184,8 @@ Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
 
 - **code**:[count method 0 1 2 sorting](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/sorting_count.py)
 
+
+
 - **Dutch National Flag Algorithm OR 3-way Partitioning:**:
 
 - a[1..Lo-1] zeroes (red)
