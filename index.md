@@ -368,3 +368,30 @@ Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
 ```
 
 - **code**:[count method 0 1 2 sorting](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/sorting_count.py)
+
+
+- **Dutch National Flag Algorithm OR 3-way Partitioning:**:
+
+- a[1..Lo-1] zeroes (red)
+- a[Lo..Mid-1] ones (white)
+- a[Mid..Hi] unknown
+- a[Hi+1..N] twos (blue)
+
+
+```
+At first, the full array is unknown. There are three indices – low, mid and high. Initially, the value of low = mid = 1 and high = N.
+
+If the ith element is 0 then swap the element to the low range, thus shrinking the unknown range.
+Similarly, if the element is 1 then keep it as it is but shrink the unknown range.
+If the element is 2 then swap it with an element in high range.
+Algorithm:
+Keep three indices low = 1, mid = 1 and high = N and there are four ranges, 1 to low (the range containing 0), low to mid (the range containing 1), mid to high (the range containing unknown elements) and high to N (the range containing 2).
+Traverse the array from start to end and mid is less than high. (Loop counter is i)
+If the element is 0 then swap the element with the element at index low and update low = low + 1 and mid = mid + 1
+If the element is 1 then update mid = mid + 1
+If the element is 2 then swap the element with the element at index high and update high = high – 1 and update i = i – 1. As the swapped element is not processed
+Print the output array.
+
+```
+
+- **code**:[3 way partioning to solve 0 1 2 ](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/)
