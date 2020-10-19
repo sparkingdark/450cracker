@@ -421,4 +421,4 @@ Note: Order of elements is not important here.
 The idea is to simply apply the partition process of quicksort. pop the element negative store element
 after that insert at 0th position of the array.
 
-- **Code**:[]()
+- **Code**:[quicksort partitioning approach to solve](https://github.com/sparkingdark/450cracker/blob/main/negative%20number%20side/negative_number_sort.py)
