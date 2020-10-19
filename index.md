@@ -394,4 +394,31 @@ Print the output array.
 
 ```
 
-- **code**:[3 way partioning to solve 0 1 2 ](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/)
+- **code**:[3 way partioning to solve 0 1 2 ](https://github.com/sparkingdark/450cracker/blob/main/sorting%20zero%20one%20two/dutch_national_flag.py)
+
+
+
+
+### Problem 5 Move all negative numbers to beginning and positive to end with constant extra space.
+
+- used language: python
+- Approach:Quicksort partitioning process.
+
+#### Description:
+An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.
+Examples : 
+
+```
+Input: -12, 11, -13, -5, 6, -7, 5, -3, -6
+
+Output: -12 -13 -5 -7 -3 -6 11 6 5
+
+```
+Note: Order of elements is not important here.
+
+
+- **approach**:
+The idea is to simply apply the partition process of quicksort. pop the element negative store element
+after that insert at 0th position of the array.
+
+- **Code**:[]()
