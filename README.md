@@ -238,3 +238,38 @@ The idea is to simply apply the partition process of quicksort. pop the element 
 after that insert at 0th position of the array.
 
 - **Code**:[negative number aside](https://github.com/sparkingdark/450cracker/blob/main/negative%20number%20side/negative_number_sort.py)
+
+
+### Problem 6 find the union and Intersection of two sorted array.
+
+- used language: python
+- Approach:using set property,Iterative approach
+
+#### Description:
+Given two sorted arrays, find their union and intersection.
+
+```
+Input : arr1[] = {1, 3, 4, 5, 7}
+        arr2[] = {2, 3, 5, 6} 
+Output : Union : {1, 2, 3, 4, 5, 6, 7} 
+         Intersection : {3, 5}
+
+Input : arr1[] = {2, 5, 6}
+        arr2[] = {4, 6, 8, 10} 
+Output : Union : {2, 4, 5, 6, 8, 10} 
+         Intersection : {6}
+
+```
+
+-**Approach used**:simple iterative one
+
+```
+1.first find the maximum length of the array 
+2.then iterate through the maximum array
+3.if element in arr
+4.then push to set
+5.return the set
+
+```
+
+- **Code**:[]()
