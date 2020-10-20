@@ -272,4 +272,4 @@ Output : Union : {2, 4, 5, 6, 8, 10}
 
 ```
 
-- **Code**:[]()
+- **Code**:[simple iterative approach](https://github.com/sparkingdark/450cracker/blob/main/finding%20union%20and%20intersection%20of%20two%20sorted%20array/union_intersection.py)
