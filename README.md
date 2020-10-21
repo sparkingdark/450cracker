@@ -272,4 +272,37 @@ Output : Union : {2, 4, 5, 6, 8, 10}
 
 ```
 
+- **Code**:[Simple Iterative approach](https://github.com/sparkingdark/450cracker/blob/main/finding%20union%20and%20intersection%20of%20two%20sorted%20array/union_intersection.py)
+
+### Problem 7 Cyclically rotate an array by one .
+
+- used language: python
+- Approach:
+
+#### Description:
+
+Given an array, cyclically rotate an array by one.
+
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains an integer n denoting the size of the array. Then following line contains 'n' integers forming the array. 
+
+Output:
+Output the cyclically rotated array by one.
+
+```
+Input:  arr[] = {1, 2, 3, 4, 5}
+Output: arr[] = {5, 1, 2, 3, 4}
+
+```
+
+- **approach**:
+
+```
+1) Store last element in a variable say x.
+2) Shift all elements one position ahead.
+3) Replace first element of array with x.
+
+```
+
+
 - **Code**:[]()
