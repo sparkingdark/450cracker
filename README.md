@@ -261,7 +261,7 @@ Output : Union : {2, 4, 5, 6, 8, 10}
 
 ```
 
--**Approach used**:simple iterative one
+- **Approach used**:simple iterative one
 
 ```
 1.first find the maximum length of the array 
