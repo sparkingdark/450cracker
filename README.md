@@ -305,4 +305,4 @@ Output: arr[] = {5, 1, 2, 3, 4}
 ```
 
 
-- **Code**:[]()
+- **Code**:[simple insert](https://github.com/sparkingdark/450cracker/blob/main/rotate%20the%20array%20by%20one/rotate.py)
