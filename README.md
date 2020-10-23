@@ -341,4 +341,4 @@ return max_so_far
 ```
 
 
-- **Code**:[simple iterative approach]()
+- **Code**:[simple iterative approach](https://github.com/sparkingdark/450cracker/blob/main/Kadane's%20Algorithm/kadane.py)
