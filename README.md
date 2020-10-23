@@ -306,3 +306,39 @@ Output: arr[] = {5, 1, 2, 3, 4}
 
 
 - **Code**:[simple insert](https://github.com/sparkingdark/450cracker/blob/main/rotate%20the%20array%20by%20one/rotate.py)
+
+
+### Problem 8 Kadane's Algorithm.
+
+- used language: python
+- Approach:Simple iterative approach
+
+#### Description:
+
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+
+Input:
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains a single integer N denoting the size of array. The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+
+Output:
+Print the maximum sum of the contiguous sub-array in a separate line for each test case.
+
+
+- **approach**:Simple Iterative approach
+
+```
+Initialize:
+    max_so_far = 0
+    max_ending_here = 0
+
+Loop for each element of the array
+  (a) max_ending_here = max_ending_here + a[i]
+  (b) if(max_so_far < max_ending_here)
+            max_so_far = max_ending_here
+  (c) if(max_ending_here < 0)
+            max_ending_here = 0
+return max_so_far
+```
+
+
+- **Code**:[simple iterative approach]()
