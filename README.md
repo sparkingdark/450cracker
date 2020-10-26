@@ -391,4 +391,3 @@ arr[] = {3, 4, 5}
 
 - **Code**:[simple greedy approach](https://github.com/sparkingdark/450cracker/blob/main/Minimizing%20height%20of%20the%20maximum%20difference%20of%20array/minmax.py)
 
-hello
